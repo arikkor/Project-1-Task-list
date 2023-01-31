@@ -61,7 +61,7 @@ textarea:focus {
 #tasksContainer {
   display: flex;
   margin-left: 4em;
-  flex-wrap-wrap;
+  flex: wrap-wrap;
 }
 
 .taskContent {
