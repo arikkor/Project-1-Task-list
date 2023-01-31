@@ -45,7 +45,7 @@ const makeTask = () => {
     data += `<div id="newTask" class="card bg-transparent text-dark ${
       index === myData.length - 1 ? "fade-in" : ""
     }">
-    <img src="../images/notebg.png" class="card-img" alt="card-img-overlay">
+    <img src="images/notebg.png" class="card-img" alt="card-img-overlay">
     <div class="card-img-overlay ">
       <span class="deleteBtn" onclick="deleteTask(event)">❌</span>
       <div class="taskContent">
